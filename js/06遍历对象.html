@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    var obj = new Object();
+    obj.age = 19;
+    obj.name = 'zsf';
+    obj.sayHi = function () {
+        console.log("hi")
+    }
+
+    // 遍历对象
+    for (var k in obj) {
+        // 输出变量
+        // console.log(k)
+          // 输出变量值
+        console.log('----------------')
+        console.log(obj[k])
+    }
+</script>
+</body>
+</html>
