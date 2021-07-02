@@ -6,7 +6,21 @@
 </head>
 <body>
 <script>
+    // Math Date Array String等内置对象  MDN/ W3C
 
+    console.log(Math.max(1, 9, 34, 666))
+    console.log(Math.random())  // 0-1之间
+
+    var date = new Date();
+    console.log(date)
+    console.log("时间戳1：" + date.valueOf())
+    console.log("时间戳2：" + date.getTime())
+
+    // 1、检测是否为数组 instanceof
+    var arr = []
+    console.log(arr instanceof Array)
+    // 2、检测是否为数组 Array
+    console.log(Array.isArray(arr))
 </script>
 
 </body>
