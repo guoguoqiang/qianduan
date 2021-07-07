@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: #FF5722;
+        }
+
+        input {
+            color: #999999;
+        }
+
+        .change {
+            width: 100px;
+            height: 100px;
+            background-color: #00F7DE;
+        }
+    </style>
+</head>
+<body>
+<div></div>
+
+<input type="text" value="手机"/>
+<script>
+    // 1、获取元素
+    var div = document.querySelector('div');
+    // 2、注册事件 处理程序
+    div.onclick = function () {
+        // this.style.backgroundColor = 'purple';
+        div.className = 'change';
+    }
+
+    var input = document.querySelector('input');
+    // 获得焦点事件
+    input.onfocus = function () {
+        if (this.value === '手机') {
+            this.value = ''
+        }
+        this.style.color = '#333'
+    }
+    // 失去焦点事件
+    input.onblur = function () {
+        if (this.value === '') {
+            this.value = '手机'
+        }
+        this.style.color = '#999'
+    }
+</script>
+</body>
+</html>

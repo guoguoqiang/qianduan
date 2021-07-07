@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dom</title>
+</head>
+<body>
+<div id="time">2021-07-05</div>
+
+<ul>
+    <li>test</li>
+    <li>test</li>
+    <li>test</li>
+    <li>test</li>
+    <li>test</li>
+
+</ul>
+
+<div class="box">盒子</div>
+<div class="box">盒子</div>
+<div id='nav'>
+    <ul>
+        <li>首页</li>
+        <li>产品</li>
+    </ul>
+</div>
+<script>
+    // dom：文档对象模型
+    // 文档 、元素 、节点
+    /*    如何获取元素？
+        1、根据id获取
+        2、根据标签名获取
+        3、通过html5新增的方法获取
+        4、特殊元素的获取
+        */
+    var time = document.getElementById("time");
+    console.log(time)
+    console.log(typeof time)
+    console.dir(time)
+    console.log('----------------')
+    var elementsByTagName = document.getElementsByTagName('li');
+    console.log(elementsByTagName)
+
+    console.log('----------------')
+    var elementsByClassName = document.getElementsByClassName('box');
+    console.log(elementsByClassName)
+    var selector = document.querySelector('.box');
+    console.log(selector)
+
+    console.log('----------------')
+    var body = document.body;
+    console.log(body)
+    // html
+    var html = document.documentElement;
+    console.log(html    )
+</script>
+
+</body>
+</html>

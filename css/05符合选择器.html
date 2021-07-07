@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*后台选择器*/
+        ol li {
+            color: #FF5722;
+        }
+
+        ol li a {
+            color: springgreen;
+        }
+
+        /*子选择器*/
+        .nav > a {
+            color: gold;
+        }
+
+        /*并集选择器*/
+        div, p, .pig li {
+            color: pink;
+        }
+
+        /*连接伪类选择器*/
+        /*没有访问过的*/
+        a:link {
+            color: #333;
+        }
+
+        /*点击过的连接*/
+        a:visited {
+            color: pink;
+        }
+
+        /*鼠标经过的连接*/
+        a:hover {
+            color: blue;
+        }
+
+        /*focus 伪类选择器*/
+        input:focus {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+<ol>
+    <li>1</li>
+    <li>1</li>
+    <li><a href="#">2</a></li>
+</ol>
+
+<ul>
+    <li>3</li>
+    <li>3</li>
+    <li>3</li>
+</ul>
+
+
+<div class="nav">
+    <a href="#">son</a>
+    <p>
+        <a href="#">son son</a>
+    </p>
+
+</div>
+
+
+<div>熊大</div>
+<p>熊二</p>
+<span>光头强</span>
+<ul class='pig'>
+    <li>佩奇</li>
+    <li>猪吗</li>
+    <li>猪八</li>
+</ul>
+
+
+<a href="#">小猪佩奇</a>
+
+<input type="text">
+</body>
+</html>
