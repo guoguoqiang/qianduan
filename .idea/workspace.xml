@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0731a339-cb34-4497-83cb-6a3bfc8765fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/13浮动demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/14浮动demo2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/15浮动demo3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/16网页布局.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/17清除浮动.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/18定位.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/19隐藏元素.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,19 +19,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/12浮动.html">
+        <entry file="file://$PROJECT_DIR$/css/18定位.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            <state relative-caret-position="-586">
+              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/13浮动demo.html">
+        <entry file="file://$PROJECT_DIR$/css/19隐藏元素.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="164">
+              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -88,6 +93,12 @@
         <option value="$PROJECT_DIR$/css/11新浪导航栏.html" />
         <option value="$PROJECT_DIR$/css/12浮动.html" />
         <option value="$PROJECT_DIR$/css/13浮动demo.html" />
+        <option value="$PROJECT_DIR$/css/14浮动demo2.html" />
+        <option value="$PROJECT_DIR$/css/15浮动demo3.html" />
+        <option value="$PROJECT_DIR$/css/16网页布局.html" />
+        <option value="$PROJECT_DIR$/css/17清除浮动.html" />
+        <option value="$PROJECT_DIR$/css/18定位.html" />
+        <option value="$PROJECT_DIR$/css/19隐藏元素.html" />
       </list>
     </option>
   </component>
@@ -121,6 +132,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="CatdeaLogs" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,24 +141,17 @@
               <item name="study-layui" type="b2602c69:ProjectViewProjectNode" />
               <item name="study-layui" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="study-layui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study-layui" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="CatdeaLogs" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1625653828374" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1625731608366" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -192,7 +198,8 @@
       <workItem from="1625187778619" duration="11802000" />
       <workItem from="1625219345483" duration="2778000" />
       <workItem from="1625445981874" duration="15200000" />
-      <workItem from="1625635190020" duration="15671000" />
+      <workItem from="1625635190020" duration="15696000" />
+      <workItem from="1625705062742" duration="13336000" />
     </task>
     <task id="LOCAL-00001" summary="新增md和学习文件分类">
       <created>1625219630372</created>
@@ -215,17 +222,23 @@
       <option name="project" value="LOCAL" />
       <updated>1625652902250</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="study css 浮动">
+      <created>1625653929655</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625653929656</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50281000" />
+    <option name="totallyTimeSpent" value="63642000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2174616" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22069523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -245,11 +258,11 @@
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Sequence" order="10" />
       <window_info anchor="bottom" id="CheckStyle" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5004042" side_tool="true" weight="0.28063944" />
       <window_info anchor="bottom" id="Statistic" order="13" />
       <window_info anchor="bottom" id="PlugProxy" order="14" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
-      <window_info anchor="bottom" id="Version Control" order="16" weight="0.28063944" />
+      <window_info anchor="bottom" id="Version Control" order="16" sideWeight="0.4995958" visible="true" weight="0.1758437" />
       <window_info anchor="bottom" id="JRebel Console" order="17" side_tool="true" />
       <window_info anchor="bottom" id="JRebel Executor" order="18" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -358,7 +371,8 @@
     <MESSAGE value="新增md和学习文件分类" />
     <MESSAGE value="study js" />
     <MESSAGE value="study css" />
-    <option name="LAST_COMMIT_MESSAGE" value="study css" />
+    <MESSAGE value="study css 浮动" />
+    <option name="LAST_COMMIT_MESSAGE" value="study css 浮动" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/layui-v2.6.8/layui/css/layui.css" />
@@ -582,24 +596,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/04emmet语法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/09背景图片.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/10盒子模型.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -615,15 +615,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/12浮动.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
+        <state relative-caret-position="350">
           <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/13浮动demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
+        <state relative-caret-position="-170">
           <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/14浮动demo2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/04emmet语法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-175">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/10盒子模型.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/15浮动demo3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/16网页布局.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/17清除浮动.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/18定位.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-586">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/19隐藏元素.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
         </state>
       </provider>
     </entry>

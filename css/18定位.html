@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .father {
+            position: relative;
+            width: 500px;
+            height: 500px;
+            background-color: purple;
+        }
+
+        .son {
+            /*绝对定位*/
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            height: 200px;
+            width: 200px;
+            background-color: pink;
+        }
+
+        .dj {
+            position: fixed;
+            top: 0;
+            right: 0;
+            background-color: deeppink;
+            width: 200px;
+            height: 200px;
+        }
+
+        .nav {
+            /*粘性定位*/
+            position: sticky;
+            top: 0;
+            width: 1000px;
+            height: 20px;
+            margin: auto;
+            background-color: pink;
+        }
+
+        body {
+            height: 3000px;
+        }
+    </style>
+</head>
+<body>
+<!--postition
+static 静态定位
+relative 相对定位
+absolute 绝对定位
+fixed 固定定位
+
+定位 = 定位模式 + 边偏移-->
+
+<!--<div class="father">
+    <div class="son"></div>
+</div>
+
+
+<div class="dj"></div>-->
+
+<div class="nav"></div>
+
+
+</body>
+</html>

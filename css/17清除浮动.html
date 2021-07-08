@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box {
+            /*清除浮动*/
+            overflow: hidden;
+            background-color: purple;
+        }
+
+        .damao {
+            float: left;
+            width: 300px;
+            height: 300px;
+            background-color: pink;
+        }
+
+        .ermao {
+            float: left;
+            width: 300px;
+            height: 300px;
+            background-color: deeppink;
+        }
+
+        .footer {
+
+            height: 300px;
+            background-color: blue;
+        }
+
+        /*清除浮动1*/
+        /* .clear {
+             clear: both;
+         }*/
+    </style>
+</head>
+<body>
+<!--清除浮动方法
+1、额外标签法 也称为 隔墙法，是W3C推荐的做法 clear：both
+2、父级添加overflow 属性
+3、父级添加 after 伪元素
+4、父元素添加 双伪 元素-->
+<div class="box">
+    <div class="damao">大毛</div>
+    <div class="ermao">二毛</div>
+    <div class="ermao">二毛</div>
+    <div class="ermao">二毛</div>
+    <div class="ermao">二毛</div>
+    <div class="ermao">二毛</div>
+
+    <div class="clear"></div>
+</div>
+
+<div class="footer"></div>
+
+</body>
+</html>
