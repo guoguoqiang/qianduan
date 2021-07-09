@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0731a339-cb34-4497-83cb-6a3bfc8765fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/14浮动demo2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/15浮动demo3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/16网页布局.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/17清除浮动.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/18定位.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/19隐藏元素.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,18 +18,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/18定位.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-586">
-              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+            <state relative-caret-position="475">
+              <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/19隐藏元素.html">
+        <entry file="file://$PROJECT_DIR$/bootstrap/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            <state relative-caret-position="125">
+              <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layui/03栅格系统.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-300" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/vue.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/01-el挂载点.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-297" />
           </provider>
         </entry>
       </file>
@@ -41,8 +57,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -99,6 +115,9 @@
         <option value="$PROJECT_DIR$/css/17清除浮动.html" />
         <option value="$PROJECT_DIR$/css/18定位.html" />
         <option value="$PROJECT_DIR$/css/19隐藏元素.html" />
+        <option value="$PROJECT_DIR$/bootstrap/index.html" />
+        <option value="$PROJECT_DIR$/vue/vue.js" />
+        <option value="$PROJECT_DIR$/vue/index.html" />
       </list>
     </option>
   </component>
@@ -131,8 +150,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="CatdeaLogs" />
       <pane id="ProjectPane">
         <subPane>
@@ -145,13 +162,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1625731608366" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1625819237513" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -199,7 +218,8 @@
       <workItem from="1625219345483" duration="2778000" />
       <workItem from="1625445981874" duration="15200000" />
       <workItem from="1625635190020" duration="15696000" />
-      <workItem from="1625705062742" duration="13336000" />
+      <workItem from="1625705062742" duration="14065000" />
+      <workItem from="1625792467565" duration="6415000" />
     </task>
     <task id="LOCAL-00001" summary="新增md和学习文件分类">
       <created>1625219630372</created>
@@ -229,16 +249,23 @@
       <option name="project" value="LOCAL" />
       <updated>1625653929656</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="study css">
+      <created>1625731626336</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1625731626336</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63642000" />
+    <option name="totallyTimeSpent" value="70786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22069523" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18270008" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -258,11 +285,11 @@
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Sequence" order="10" />
       <window_info anchor="bottom" id="CheckStyle" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5004042" side_tool="true" weight="0.28063944" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5004042" side_tool="true" weight="0.3428064" />
       <window_info anchor="bottom" id="Statistic" order="13" />
       <window_info anchor="bottom" id="PlugProxy" order="14" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
-      <window_info anchor="bottom" id="Version Control" order="16" sideWeight="0.4995958" visible="true" weight="0.1758437" />
+      <window_info anchor="bottom" id="Version Control" order="16" sideWeight="0.4995958" visible="true" weight="0.062166963" />
       <window_info anchor="bottom" id="JRebel Console" order="17" side_tool="true" />
       <window_info anchor="bottom" id="JRebel Executor" order="18" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -370,20 +397,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新增md和学习文件分类" />
     <MESSAGE value="study js" />
-    <MESSAGE value="study css" />
     <MESSAGE value="study css 浮动" />
-    <option name="LAST_COMMIT_MESSAGE" value="study css 浮动" />
+    <MESSAGE value="study css" />
+    <option name="LAST_COMMIT_MESSAGE" value="study css" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/layui-v2.6.8/layui/css/layui.css" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/meta.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.html" />
     <entry file="file://$PROJECT_DIR$/03栅格系统.html" />
     <entry file="file://$PROJECT_DIR$/04按钮.html" />
     <entry file="file://$PROJECT_DIR$/05导航.html" />
@@ -669,17 +687,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/18定位.html">
+    <entry file="file://$PROJECT_DIR$/css/19隐藏元素.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-586">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        <state relative-caret-position="89">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/19隐藏元素.html">
+    <entry file="file://$PROJECT_DIR$/css/18定位.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="475">
+          <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layui/03栅格系统.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/vue.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/01-el挂载点.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
         </state>
       </provider>
     </entry>
